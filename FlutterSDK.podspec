@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FlutterSDK.'
+  s.summary          = '早团SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+早团Flutter端SDK产物
 
   s.homepage         = 'https://github.com/huiqiangdev/FlutterSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,6 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FlutterSDK/Classes/**/*'
+  s.vendored_frameworks = 'FlutterSDK/Frameworks/*.framework'
   
   # s.resource_bundles = {
   #   'FlutterSDK' => ['FlutterSDK/Assets/*.png']

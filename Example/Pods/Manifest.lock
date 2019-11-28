@@ -1,0 +1,16 @@
+PODS:
+  - FlutterSDK (0.1.0)
+
+DEPENDENCIES:
+  - FlutterSDK (from `../`)
+
+EXTERNAL SOURCES:
+  FlutterSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlutterSDK: 6b08955843d6fe8624736099be77b4999afc8b69
+
+PODFILE CHECKSUM: 70ab232b7ab0527b98b6a473b16ba366d1b9a0f7
+
+COCOAPODS: 1.8.3
